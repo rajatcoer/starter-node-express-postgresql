@@ -24,10 +24,10 @@ module.exports = {
       rejectUnauthorized: false // This will allow connections without requiring SSL certificates to be valid.
     },
     migrations: {
-      directory: path.join(__dirname, "src", "db", "migrations"),
+      directory: path.join(__dirname, "api", "db", "migrations"),
     },
     seeds: {
-      directory: path.join(__dirname, "src", "db", "seeds"),
+      directory: path.join(__dirname, "api", "db", "seeds"),
     },
   },
   production: {
@@ -37,10 +37,10 @@ module.exports = {
       rejectUnauthorized: false // This will allow connections without requiring SSL certificates to be valid.
     },
     migrations: {
-      directory: path.join(__dirname, "src", "db", "migrations"),
+      directory: path.join(__dirname, "api", "db", "migrations"),
     },
     seeds: {
-      directory: path.join(__dirname, "src", "db", "seeds"),
+      directory: path.join(__dirname, "api", "db", "seeds"),
     }
   }
 
